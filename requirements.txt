@@ -1,0 +1,17 @@
+# Core pipeline
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+trafilatura>=2.0
+pypdf>=4.0
+python-dateutil>=2.8
+playwright>=1.44          # only needed for the JavaScript fallback; run: playwright install chromium
+# Analysis + report
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+reportlab>=4.0
+pillow>=10.0
+# Tests
+pytest>=8.0
